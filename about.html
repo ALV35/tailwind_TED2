@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Interface</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <header class="bg-blue-500 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-lg font-semibold">Tailwind</h1>
+            <nav class="flex justify-center w-full">
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="about.html" class="hover:underline">Sobre</a></li>
+                    <li><a href="#" class="hover:underline">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto p-4">
+        <h2 class="text-2xl font-semibold mb-4">Bem vindo ao site</h2>
+        <p>A primeira etapa é instalar o Tailwind CSS em seu projeto. Isso pode ser feito através do npm, usando o comando <strong><em>“npm install tailwindcss”</em></strong> ou através do yarn, usando o comando <strong><em>“yarn add tailwindcss”</em></strong>.</p>
+        <p>Depois de instalado, você precisará importar o arquivo de configuração do Tailwind CSS em seu arquivo CSS principal. Isso geralmente é feito adicionando a seguinte linha de código no topo do arquivo: <strong><em>“@import ‘node_modules/tailwindcss/base’;”</em></strong>.</p>
+
+        <p>A segunda etapa é configurá-lo para atender às suas necessidades. Isso é feito criando um arquivo de configuração personalizado, geralmente chamado de <strong><em>“tailwind.config.js”</em></strong>.</p>
+        <p>Neste arquivo, você pode ajustar configurações como cores, tamanhos de fonte e espaçamentos. Você também pode adicionar suas próprias classes personalizadas e plugins.</p>
+
+        <p>Por fim, se você já tem um projeto existente e deseja adicionar o Tailwind CSS, você precisará importar as classes pré-definidas em seus arquivos HTML e CSS existentes.</p>
+        <p>Isso pode ser feito adicionando classe para os elementos que você deseja estilizar. É importante notar que essa operação pode ser complexa e trabalhosa, dependendo do tamanho e complexidade do seu projeto.</p>
+
+        <p>Fonte: <a href="https://awari.com.br/tailwind-css/" class="hover:underline">Awari</a></p>
+    </main>
+
+    <footer class="bg-blue-500 text-white p-4">
+        <div class="container mx-auto text-center">
+            <p>© Pagina com tailwind</p>
+        </div>
+    </footer>
+
+</body>
+</html>

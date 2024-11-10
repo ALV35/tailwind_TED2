@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav a {
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #4FD1C5;
+  }
+
+  footer {
+    border-top: 1px solid #4A5568;
+    font-size: 0.9rem;
+  }
+  
